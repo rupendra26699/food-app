@@ -1,0 +1,17 @@
+mat-card{
+    align-items: center;
+    width: 350px;
+    margin: auto;
+    margin-top: 8%;
+}
+
+mat-card-content , mat-card-actions{
+    padding-left: 20px;
+}
+
+ mat-form-field ,mat-card-actions button{
+    width: 90%;
+}
+mat-card-actions button{
+    margin-bottom: 2rem;
+}

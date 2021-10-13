@@ -1,0 +1,20 @@
+<mat-card>
+    <mat-card-content [formGroup]="addfoodForm">
+        <p>
+            <mat-form-field appearance="fill">
+              <mat-label>Food Name</mat-label>
+              <input matInput placeholder="Enter Food Name" formControlName="foodname">
+            </mat-form-field>
+        </p>
+        <p>
+            <mat-form-field appearance="fill">
+              <mat-label>Food Type</mat-label>
+              <input matInput placeholder="Enter Food Type" formControlName="foodtype">
+            </mat-form-field>
+        </p>
+    </mat-card-content>
+    <mat-card-actions>
+        <a mat-raised-button color="accent" (click)="addFood()">Add </a>
+        <a mat-raised-button routerLink="/users/products" color="warn">cancel</a>
+    </mat-card-actions>
+</mat-card>

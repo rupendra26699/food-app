@@ -1,0 +1,28 @@
+
+   <mat-card-actions style="float: right; margin:1% 6%;width: 120px;">
+      <a mat-raised-button routerLink="/users/products/add-products" color="primary">Add</a>
+   </mat-card-actions>
+
+<table mat-table [dataSource] = "dataSource" class = "mat-elevation-z8"> 
+    <ng-container matColumnDef = "name">
+       <th mat-header-cell *matHeaderCellDef> Food Name</th>
+       <td mat-cell *matCellDef = "let element"> {{element.foodname}} </td>
+    </ng-container>
+    <ng-container matColumnDef = "type">
+        <th mat-header-cell *matHeaderCellDef>Food Type</th>
+        <td mat-cell *matCellDef = "let element"> {{element.foodtype}} </td>
+     </ng-container>
+     <ng-container matColumnDef="actions">
+      <th mat-header-cell  *matHeaderCellDef> Actions </th>
+      <td mat-cell *matCellDef="let row" >
+         <button mat-button (click)="edit(row.id)" >Edit</button>
+         <button mat-button (click)="delete(row.id)" >Delete</button>
+      </td>
+    </ng-container>
+    
+    <tr mat-header-row *matHeaderRowDef = "displayedColumns"></tr>
+    <tr mat-row *matRowDef = "let row; columns: displayedColumns;"></tr>
+   </table>
+
+
+  

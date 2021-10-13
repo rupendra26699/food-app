@@ -1,0 +1,8 @@
+mat-card{
+    width: 95%;
+    margin: 15px 20px;
+}
+
+mat-card button{
+    float: right;
+}

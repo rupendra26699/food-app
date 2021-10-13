@@ -1,0 +1,34 @@
+<mat-card>
+    <mat-card-title> Create account / Signup </mat-card-title>
+    <mat-card-subtitle><Small>To create new account signup here</Small></mat-card-subtitle>
+    <mat-card-content [formGroup]="signupForm">
+        <p>
+            <mat-form-field appearance="fill">
+              <mat-label>Username</mat-label>
+              <input matInput placeholder="Enter Username" formControlName="username" >
+            </mat-form-field>
+        </p>
+        <p>
+            <mat-form-field appearance="fill">
+              <mat-label>Email</mat-label>
+              <input matInput placeholder="Enter Email" formControlName="email">
+            </mat-form-field>
+        </p>
+        <p>
+            <mat-form-field appearance="fill">
+              <mat-label>Password</mat-label>
+              <input matInput placeholder="Enter your Password" formControlName="password">
+            </mat-form-field>
+        </p>
+        <p>
+            <mat-form-field appearance="fill">
+              <mat-label>Confirm Password</mat-label>
+              <input matInput placeholder="Confirm your Password" formControlName="confirmpassword">
+            </mat-form-field>
+        </p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-raised-button color="primary" (click)="onSubmit()">Create / Signup </button><br>
+        <small>Already have an account ? <a routerLink = "/login"> Go to Login page. </a></small>
+    </mat-card-actions>
+  </mat-card>

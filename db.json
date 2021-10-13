@@ -1,0 +1,100 @@
+{
+  "Registered_Users": [
+    {
+      "username": "rupendra",
+      "email": "rupendra26699@gmail.com",
+      "password": "123456",
+      "confirmpassword": "123456",
+      "id": 1
+    },
+    {
+      "username": "sunny",
+      "email": "sunny25@yahoo.com",
+      "password": "09876",
+      "confirmpassword": "09876",
+      "id": 2
+    },
+    {
+      "username": "ritik",
+      "email": "jj",
+      "password": "i",
+      "confirmpassword": "im",
+      "id": 3
+    },
+    {
+      "username": "dcdsc",
+      "email": "sdvdsvsdv",
+      "password": "sdvdv",
+      "confirmpassword": "d",
+      "id": 4
+    },
+    {
+      "username": "sss",
+      "email": "ss",
+      "password": "ss",
+      "confirmpassword": "",
+      "id": 5
+    },
+    {
+      "username": "dcd",
+      "email": "cdc",
+      "password": "dcdc",
+      "confirmpassword": "cdcdc",
+      "id": 6
+    },
+    {
+      "username": "dddcddcsd",
+      "email": "eeeerrrrr@12.com",
+      "password": "cdcdc",
+      "confirmpassword": "dcdc",
+      "id": 7
+    },
+    {
+      "username": "edeeded",
+      "email": "ededede@123",
+      "password": "cdcd@123",
+      "confirmpassword": "cdcd@123",
+      "id": 8
+    },
+    {
+      "username": "sadasd",
+      "email": "asdsad@1242dc",
+      "password": "11sdcds@",
+      "confirmpassword": "322",
+      "id": 9
+    },
+    {
+      "username": "sdsdsd",
+      "email": "asdsad@124",
+      "password": "qw@123",
+      "confirmpassword": "dcfcd",
+      "id": 10
+    },
+    {
+      "username": "gbfd",
+      "email": "dvtv@1343",
+      "password": "tgf@13",
+      "confirmpassword": "tgf@13",
+      "id": 11
+    },
+    {
+      "username": "dcsdc",
+      "email": "dcddcd@hmaks.com",
+      "password": "dcs@1232",
+      "confirmpassword": "dcs@1232",
+      "id": 12
+    }
+  ],
+  "food": [
+    {
+      "foodname": "chicken pizza",
+      "foodtype": " Non veg",
+      "id": 9
+    },
+    {
+      "foodname": "soup",
+      "foodtype": "veg",
+      "id": 10
+    }
+  ]
+}
